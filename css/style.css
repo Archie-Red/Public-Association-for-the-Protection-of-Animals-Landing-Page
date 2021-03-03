@@ -1,0 +1,652 @@
+@font-face{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/gilroy-regular.woff2) format('woff2'),
+         url(../fonts/Gilroy-Regular.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Gilroy-bold';
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/gilroy-bold.woff2) format('woff2'),
+         url(../fonts/Gilroy-Bold.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Gilroy-ultralight';
+    font-style: normal;
+    font-display: swap;
+    src: url(../fonts/gilroy-ultralight.woff2) format('woff2'),
+         url(../fonts/Gilroy-UltraLight.woff) format('woff');
+}
+
+body{
+    font-family: 'Gilroy', serif;
+    overflow-x: hidden;
+}
+
+.Header{
+    position: absolute;
+    z-index: 10;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*___________________________________________________________________________________________________________________*/
+
+.section_1{
+    position: absolute;
+    width: 100%;
+    height: 834px;
+    left: 0px;
+    top: 0;
+    background-color: #E5E5E5;
+}
+
+.picture_1{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    right: 15%;
+    z-index: 1;
+}
+
+.picture_2{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    right: 15%;
+    z-index: 2;
+}
+
+.sec_1Heading{
+    position: relative;
+    top: 10%;
+    left: 24%;
+    display: inline-block;
+    width: 659px;
+    text-align: justify;
+    z-index: 4;
+}
+
+.sec_1Text1{
+    position: relative;
+    top: 13%;
+    left: 15%;
+    z-index: 4;
+}
+
+.sec_1Text2{
+    position: relative;
+    top: 20%;
+    left: 15%;
+    z-index: 4;
+
+}
+
+
+.ButtonOrangeSec1{
+    position: relative;
+    background-image: url(../images/Rectangle\ 27.png);
+    border: none;
+    width: 209px;
+    height: 42px;
+    top: 1em;
+    left: 5em;
+}
+
+/*___________________________________________________________________________________________________________________*/
+
+.section_2{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: 0px;
+    top: 834px;
+    background-color: #FFFF;
+}
+
+.section_2Heading{
+    position: absolute;
+    color: #C78100;
+    width: 25%;
+    height: 70%%;
+    right: 20%;
+    top: 30%;
+}
+
+.section_2Text{
+    position: absolute;
+    width: 35%;
+    height: 80%%;
+    right: 15%;
+    bottom: 14%;
+}
+
+.DogCatGroup{
+    position: absolute;
+    top: 10%;
+    bottom: 15%;
+}
+
+/*___________________________________________________________________________________________________________________*/
+.section_3{
+    position: absolute;
+    width: 100%;
+    height: 2678px;
+    max-height: auto;
+    left: 0px;
+    top: 1484px;
+    background-color: #E5E5E5;
+}
+
+.HowToHelp_Heading{
+    position: relative;
+    left: 48%;
+}
+
+.Element{
+    width: 150px;
+}
+
+
+.DogInTheHouse{
+    position: relative;
+    left: 48%;
+}
+
+.wrapper_2{
+    display: inline-block;
+}
+
+.ArticleSec3_1{
+    display: block;
+    position: relative;
+    width: 30%;
+    text-align: justify;
+    left: 10%;
+    top: 6%;
+}
+
+.ArticleSec3_2{
+    display: block;
+    position: relative;
+    width: 30%;
+    text-align: justify;
+    left: 60%;
+
+}
+
+.HowToHelp_Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.HowToHelp_MenuDescription{
+   text-align: center;
+}
+
+
+.wrapper{
+    display: flex;
+    background: #E5E5E5;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.IconHighlighting{
+    height: 150px;
+    width: 150px;
+    border: 2px;
+    border-color: #C78100;
+    border-radius: 50%;
+    
+}
+
+.PetsCard{
+    background-color: #FFFFFF;
+    padding: 16px;
+    border: 1px solid #D6D6D6;
+    margin-right: 2%;
+    margin-top: 40px;
+    margin-bottom: 4px;
+    width: 345px;
+
+}
+
+.CardHeading{
+    position: relative;
+    text-align: center;
+}
+
+.CardDescription_1{
+    border-top: 1px solid #6B6B6B;
+    color: #6B6B6B;
+    position: relative;
+    text-align: initial;
+    width: 21em;
+}
+
+.CardDescription_2{
+    position: relative;
+    text-align: initial;
+    width: 335px;
+    height: 150px;
+    padding: #6B6B6B;
+    border: 2px black;
+}
+
+.ButtonOrangeSec3{
+    position: relative;
+    background-image: url(../images/Rectangle\ 27.png);
+    border: none;
+    width: 209px;
+    height: 42px;
+    top: 1em;
+    left: 5em;
+}
+
+.ButtonWhiteSec3{
+    position: relative;
+    background-image: url(../images/Rectangle\ 273.png);
+    margin: 25px;
+    margin-left: 0px;
+    border: none;
+    width: 296px;
+    height: 42px;
+    left: 2em;
+}
+
+/*___________________________________________________________________________________________________________________*/
+.section_4{
+    position: absolute;
+    width: 1368px;
+    height: 681px;
+    left: 0px;
+    top: 4162px; 
+}
+
+.PalmCard{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+
+.sec_4Heading{
+    position: relative;
+    top: 30%;
+    left: 46%;
+
+}
+
+.sec_4Text1{
+    position: relative;
+    top: 30%;
+    left: 26%;
+    right: 50%;
+    text-align: center;
+    max-width: 758px;
+    max-height: auto;
+    min-width: 380px;
+    min-height: 55px;
+}
+
+.sec_4Text2{
+    position: absolute;
+    width: 389px;
+    height: 164px;
+    left: 15%;
+    top: 50%;
+    border-color: burlywood;
+}
+
+.sec_4Text3{
+    position: absolute;
+    width: 389px;
+    height: 218px;
+    right: 10%;
+    top: 50%;
+    border-color: blueviolet;
+}
+
+.ButtonOrangeSec4{
+    position: relative;
+    background-image: url(../images/Rectangle\ 27.png);
+    border: none;
+    width: 209px;
+    height: 42px;
+    top: 30em;
+    left: 15%;
+}
+
+/*___________________________________________________________________________________________________________________*/
+.section_5{
+    position: absolute;
+    width: 100%;
+    height: 2069px;
+    left: 0px;
+    top: 4843px;
+    background-color: #E5E5E5;
+    padding-bottom: 10px red;
+}
+
+.DogBowl{
+    position: absolute;
+    left: 46%;
+    top: 4%;
+}
+
+.sec_5Text1{
+position: absolute;
+width: 45%;
+height: 156;
+left: 30%;
+top: 8%;
+}
+
+.sec_5text2{
+position: absolute;
+width: 45%;
+height: 156;
+left: 30%;
+top: 16%;
+}
+
+.sec_5Text3{
+position: absolute;
+width: 45%;
+height: 156;
+left: 30%;
+top: 23%;
+}
+
+.sec_5Text4{
+position: absolute;
+width: 45%;
+height: 156;
+left: 30%;
+top: 38%;
+}
+
+.WhomToTransfer{
+position: absolute;
+left: 30%;
+top: 43%;
+}
+
+.sec_5Text5{
+position: absolute;
+width: 34%;
+height: 156;
+left: 51%;
+top: 55%;
+}
+
+.DogAndBone{
+position: absolute;
+bottom: 5%;
+padding-left: none;
+margin-left: 0%;
+}
+
+.DogInCar{
+    position: absolute;
+    bottom: 65%;
+    left: 47%;
+    
+}
+
+.PalmImprint{
+    position: absolute;
+    bottom: 49%;
+    left: 48%;
+
+}
+
+/*___________________________________________________________________________________________________________________*/
+.section_6{
+    position: absolute;
+    width: 100%;
+    height: 563px;
+    left: 0px;
+    top: 6912px;
+}
+
+
+.sec_6Article1{
+   position: relative; 
+   width: 32%;
+   left: 40%;
+   top: 20%;
+   text-align: justify;
+}
+
+.BlackDog{
+    position: absolute;
+    left: 27%;
+    top: 27%;
+
+}
+
+.sec_6Article2{
+   position: relative; 
+   width: 32%;
+   left: 40%;
+   top: 35%;
+   text-align: justify;
+
+}
+
+.Puppies{
+    position: absolute;
+    left: 27%;
+    top: 60%;
+
+}
+
+.ShowAllNews{
+    position: relative;
+    left: 27%;
+    top: 40%;
+}
+
+/*___________________________________________________________________________________________________________________*/
+.section_7{
+    position: absolute;
+    width: 100%;
+    height: 594px;
+    left: 0px;
+    top: 7475px;
+    background-color: #E5E5E5;
+}
+
+.sec_7Heading{
+    position: relative;
+    top: 7%;
+    left: 47%;
+}
+
+.sec_7Text1{
+position: relative;
+top: 15%;
+width: 50%;
+left: 25%;
+}
+
+.sec_7Text2{
+    position: relative;
+    top: 25%;
+    width: 50%;
+    left: 25%;
+}
+
+.ContactUs{
+position: relative;
+top: 30%;
+left: 25%;
+}
+
+.VK{
+    position: relative;
+    width: 49px;
+    height: 49px;
+    top: 30%;
+    left: 25%;
+    background-repeat: no-repeat;
+}
+
+.Instagram{
+    position: relative;
+    width: 49px;
+    height: 49px;
+    top: 22%;
+    left: 35%;
+    background-repeat: no-repeat;
+}
+
+/*___________________________________________________________________________________________________________________*/
+.section_8{
+    position: absolute;
+    width: 100%;
+    height: 741px;
+    left: 0px;
+    right: 0px;
+    top: 8069px;
+    background: url(../images/361641.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sec_8Heading{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.sec_8Picture1{
+    position: relative;
+    left: 0%;
+    opacity: 40%;
+    bottom: 20%;
+}
+
+/*___________________________________________________________________________________________________________________*/
+.section_9{
+    position: absolute;
+    width: 100%;
+    height: 117px;
+    left: 0px;
+    right: 0px;
+    top: 8810px;
+    background-color: #E5E5E5;
+}
+
+.FooterNavigation{
+    display: flex;
+    top: 10%;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+/*_____________________________________________________Form_______________________________________________________*/
+
+.ButtonOrangeForm{
+    position: relative;
+    background-image: url(../images/Rectangle\ 27.png);
+}
+
+.ButtonWhiteForm{
+    position: relative;
+    background-image: url(../images/Rectangle\ 273.png);
+
+}
+
+
+
+/*_____________________________________________________Fonts______________________________________________________*/
+h1{
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+}
+
+
+
+.h3_light{
+    font-family: 'Gilroy';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+.h3_medium{
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+.h4_medium{
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.GenderAgeDescription{
+    font-family: 'gilroy-regular';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.SleapingDog{
+}
+
+.ThanksForHelpFraming{
+    z-index: 1;
+}
+
+p{
+    z-index: 3;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    
+}
